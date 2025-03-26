@@ -10,8 +10,8 @@ function App() {
     <>
       <div>
         <h1>Google Translate API 연동</h1>
-        <TranslateComponent />
-        {/* <TranslateKorPage /> */}
+        {/* <TranslateComponent /> */}
+        <TranslateKorPage />
       </div>
     </>
   );
