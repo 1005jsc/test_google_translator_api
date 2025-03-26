@@ -1,5 +1,6 @@
 import './App.css';
 import TranslateComponent from './components/TranslateComponent';
+import TranslateKorPage from './components/TranslateKorPage';
 // import { translateText } from './utils/transtlate';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div>
         <h1>Google Translate API 연동</h1>
         <TranslateComponent />
+        {/* <TranslateKorPage /> */}
       </div>
     </>
   );
