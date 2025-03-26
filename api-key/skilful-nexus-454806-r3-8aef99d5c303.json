@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "skilful-nexus-454806-r3",
+  "private_key_id": "8aef99d5c303d13ea3e36b6793aaf5dd00b1283d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCxYZIcONxIdEeE\n+iyDHffstTuBC85BRjq/5U4QCr9vVo6X0VTUNwzXollPaQdWs8px79WIHM/enmdG\nJIcugqLZPnudl66+qXptORJc6VUCaqTQfQGUFMiMZ4gho/nDVVmDZHaCZnnJ4zuN\ne5OqyBTqsieVCviavu/ijz8419gmri1tuK23g32mk+sB5gQmxRFpN3xioe2Dkqg9\nbe4DxlBKY2FsoWVw++Sstq+o9vsXwdzbX39iWRwbbys6cZDu+d/kNiSHQq+o1FkJ\nInSg//Yl7/aXTahOejICq9wHis5dPsPJNqsPAZDGHp9sxgU+NyVDFZWor16p52r4\nKqgEwKjPAgMBAAECggEAFf4IbQpZuXv9QA36hdkp24XO1l2d2Xb5IsCt8Iw8lvPO\n4yDXmSYoJ/Yfh5p4h/XrpDu9qE4WMb5HBKnTvt8AjNnT3sKnLkl5/d/FGJLvcMjD\nHXxaPT9kbBAMD0uy1FaZLhK/JMTK1c6gHBcVxGdhPIYRJUgCccE5ocfr6ULNsGHU\nGUTcf8A970qr5Mu3TYXDwp3baB3Vsdy75PtfNkX39WjlUP88cHEQuD31Rfs5xmtw\nJ0rt1RESNtz0NIYuagi+aTjZ/WxhZOxmAe631VOL7BW2Teyjhw6J3drrc95T0fWV\nDEGG7PoJMN/H+i7VojtZd3DhDwiMh7Rcsbvp1Wpi8QKBgQDjXdzNYtKH0We1icOV\npL1kjMQbTnMPb+lHDHY8gsYtjuMiI7l1GfUL/yVPnLCDtDYBHCHPBTEQc1weivZA\nbp1DRUqnqX5IXAsaLtvWX4PU98ve8HZ/uif2xaOsmDNNR7PtOEdjIxhomDcX3Kc+\n5mWQpGTgs6I0gUj6Z5wm8EeKMQKBgQDHuDYNldZqLrFkwqx0jK1CtMwJIaDggyWh\nWI/YJCGyn383VT0l7PZlMyGDdlrr2GT6XQTpX6oHiAcbUhIaWhvae8BNbPsOVXj0\njTivLEkJAt0U+CyimFIDZdayIKGxwGKm/2AxHHpkqE4d8Ols8YEXxOletoZdhVP2\nmlX3Cvui/wKBgHCPnml73BhrPjmsm0xxQ2YNHmUaYHIrCEUpUTvBzlTtoVrcbssf\nb6ZhyVnxi52YUQgZok84FcM8KUXhq+nYGTkdi8kXazJthv2OZz1pCf4cMy0KxM+V\nHIXZ8J7YtsUyk0wEiar1y/a0LMo+bfoA3BVQnbR0mf/+ZV+6fZ71Y6VxAoGAJ+Wg\nxq38G1IgleRd1xqTMhQz/k79eFw6lDTA54iwQqKiI0ef44em4SiJtV1bZGniIjGa\n3ZQCv2ZpJQgMHb+KeObnz4/Jx19DvnbHsBbEsEwmJh49rG2JVKxvaz4hjwTDsGCr\nsqPhv2Hv2QNbXiwQgdMQW59S0DPmRgkmyycihbkCgYAK4IbW9VfO9SYaOMoGa+S1\n/K51P37XWJw4+MkYRNQT95/3aAK9GwUIloluXk9Ord31wCsJIWZVa+j3hPDKa4Zf\n9bLOc4lVwHh7NRZDw/ggTa+c90TsjjHjVfLS8fUVynVdTvCKRGnyYPgCRQM6+IyH\nwphmJbinMi9Ck1CoPBmQKQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-api@skilful-nexus-454806-r3.iam.gserviceaccount.com",
+  "client_id": "109754758778020371650",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-api%40skilful-nexus-454806-r3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
