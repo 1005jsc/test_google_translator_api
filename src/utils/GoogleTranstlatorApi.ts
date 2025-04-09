@@ -7,7 +7,7 @@ export const translateTextFromGoogle = async (text: string) => {
   }
 
   try {
-    console.log(text);
+    // console.log(text);
     // console.log(import.meta.env.VITE_GOOGLE_API_KEY_V2);
     const response = await fetch(
       `${import.meta.env.VITE_GOOGLE_TRANSLATOR_URL}?key=${
@@ -28,7 +28,7 @@ export const translateTextFromGoogle = async (text: string) => {
 
     const data = await response.json();
 
-    console.log(data);
+    // console.log(data);
 
     return !!data.data.translations[0].translatedText
       ? data.data.translations[0].translatedText

@@ -1,9 +1,9 @@
-import useTranslatePage from '../hooks/useTranslatePage';
+import useTranslatePage1 from '../hooks/useTranslatePage1';
 
 type TranslateKorPageProps = {};
 
 const TranslateKorPage = ({}: TranslateKorPageProps) => {
-  useTranslatePage();
+  useTranslatePage1();
 
   return (
     <>
