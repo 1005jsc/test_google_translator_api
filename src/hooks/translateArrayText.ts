@@ -1,6 +1,6 @@
+import { chunkArray } from '../utils/functions';
 import { translateTextFromGoogleArray } from '../utils/GoogleTranslatorApiArray';
 
-// 🔸 실제 tran_box 내 번역 적용
 export const translateAllTranBoxes = async () => {
   const boxes = document.querySelectorAll('.tran_box');
   const textNodes: { node: Text; original: string }[] = [];
@@ -30,8 +30,16 @@ export const translateAllTranBoxes = async () => {
   // 2. 원본 텍스트 추출
   const originals = textNodes.map((item) => item.original);
 
-  // 3. 번역 API 요청
-  const translated = await translateTextFromGoogleArray(originals);
+  // 3. chunk로 나눠서 번역 요청
+  const CHUNK_SIZE = 100; // ✅ 안정적으로는 100개 이하
+  const originalChunks = chunkArray(originals, CHUNK_SIZE);
+
+  const translated: string[] = [];
+
+  for (const chunk of originalChunks) {
+    const chunkTranslated = await translateTextFromGoogleArray(chunk);
+    translated.push(...chunkTranslated);
+  }
 
   // 4. 번역 결과를 노드에 반영
   translated.forEach((text, index) => {
